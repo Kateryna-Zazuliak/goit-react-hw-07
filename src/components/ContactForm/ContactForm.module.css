@@ -1,0 +1,42 @@
+.form {
+  border: 1px solid #000;
+  border-radius: 5px;
+  width: 270px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 55px;
+  padding: 10px;
+}
+.fieldWrapper {
+  display: flex;
+  flex-direction: column;
+}
+.label {
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+.input {
+  padding: 8px;
+  border: 1px solid #000;
+  border-radius: 4px;
+  height: 20px;
+}
+.input:focus {
+  border-color: #0625ec;
+}
+.errorText {
+  color: rgb(244, 47, 47);
+}
+.submitBtn {
+  display: flex;
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin: 0 auto;
+}
